@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 
-const Dummy = () => {
+const DashboardPro = () => {
   const { user } = useParams()
   return (
     <div id="title">
@@ -13,6 +13,6 @@ const Dummy = () => {
   )
 }
 
-Dummy.propTypes = {}
+DashboardPro.propTypes = {}
 
-export default Dummy
+export default DashboardPro

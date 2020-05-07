@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Dummy = () => {
+const dashboardMain = () => {
   return (
     <div id="title">
       <div>Main</div>
@@ -11,6 +11,6 @@ const Dummy = () => {
   )
 }
 
-Dummy.propTypes = {}
+dashboardMain.propTypes = {}
 
-export default Dummy
+export default dashboardMain
