@@ -6,8 +6,8 @@ const Dummy = () => {
   return (
     <div id="title">
       Profile
-      <Link to="/dashboard"> Go to Root</Link>
-      <Link to="/dashboard/main"> Go to Main</Link>
+      <Link to="/dashboard">Go to Root</Link>
+      <Link to="/dashboard/main">Go to Main</Link>
       <div id="username">{user}</div>
     </div>
   )
